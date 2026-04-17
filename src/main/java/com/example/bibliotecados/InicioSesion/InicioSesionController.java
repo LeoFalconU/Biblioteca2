@@ -1,7 +1,6 @@
 package com.example.bibliotecados.InicioSesion;
 
 
-import com.example.mvc.model.UserModel;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
@@ -14,7 +13,7 @@ public class InicioSesionController {
     @FXML
     private Label lblMessage;
 
-    private UserModel userModel = new UserModel();
+    private InicioSesionModel userModel = new InicioSesionModel();
 
     @FXML
     public void onClickLogin(){
