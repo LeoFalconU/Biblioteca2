@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="272.0" layoutY="35.0" text="Bienvenido" />
+            <Button layoutX="276.0" layoutY="90.0" mnemonicParsing="false" text="Agregar libro" />
+            <Button layoutX="276.0" layoutY="143.0" mnemonicParsing="false" text="Buscar libro" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
